@@ -1,3 +1,11 @@
+:root {
+    --ModerateViolet: hsl(263, 55%, 52%);
+    --DarkGrayishBlue: hsl(217, 19%, 35%);
+    --DarkBlackishBlue: hsl(219, 29%, 14%);
+    --LightGray: hsl(0, 0%, 81%);
+    --LightGrayishBlue: hsl(210, 46%, 95%);
+}
+
 * {
     box-sizing: border-box;
 }
@@ -26,16 +34,8 @@
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
 
-:root {
-    --ModerateViolet: hsl(263, 55%, 52%);
-    --DarkGrayishBlue: hsl(217, 19%, 35%);
-    --DarkBlackishBlue: hsl(219, 29%, 14%);
-    --LightGray: hsl(0, 0%, 81%);
-    --LightGrayishBlue: hsl(210, 46%, 95%);
-}
-
 body {
-    background-color: var(--LightGray);
+    background-color: var(--LightGrayishBlue);
 }
 
 div {
@@ -71,5 +71,10 @@ div {
     [class*="col-"] {
         width: 100%;
     }
+
+}
+
+@media only screen and (min-width:375px) {
+   
 
 }
