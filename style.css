@@ -1,5 +1,6 @@
 :root {
     --ModerateViolet: hsl(263, 55%, 52%);
+    --LightViolet: hsl(263, 49%, 61%);
     --DarkGrayishBlue: hsl(217, 19%, 35%);
     --DarkBlackishBlue: hsl(219, 29%, 14%);
     --LightGray: hsl(0, 0%, 81%);
@@ -36,31 +37,58 @@
 
 body {
     background-color: var(--LightGrayishBlue);
-}
-
-div {
-    border-style: none;
-    border-radius: 10px;
+    padding: 10px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
 }
 
 .purple {
     background-color: var(--ModerateViolet);
     color: white;
+    border-style: none;
+    border-radius: 10px;
+    padding: 20px; 
+    margin: 30px 10px;
+}
+
+.purple img {
+    border: 3px solid var(--LightViolet);
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.profile {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+   
 }
 
 .gray {
     background-color: var(--DarkGrayishBlue);
     color: white;
+    border-style: none;
+    border-radius: 10px;
+    padding: 20px; 
+    margin: 30px 10px;
 }
 
 .black {
     background-color: var(--DarkBlackishBlue);
     color: white;
+    border-style: none;
+    border-radius: 10px;
+    padding: 20px; 
+    margin: 30px 10px;
 }
 
 .white {
     background-color: white;
     color: var(--DarkBlackishBlue);
+    border-style: none;
+    border-radius: 10px;
+    padding: 20px; 
+    margin: 30px 10px;
 }
 
 .attribution { font-size: 11px; text-align: center; }
