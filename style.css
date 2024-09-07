@@ -24,9 +24,9 @@ body {
 
 .parent {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(4, auto);
-    gap: 8px;
+    grid-template-columns: 40px repeat(4, 1fr) 40px;
+    grid-template-rows: 40px repeat(2, auto) 40px;
+    gap: 25px;
 }
     
 .div1 {
@@ -38,7 +38,6 @@ body {
     border-style: none;
     border-radius: 10px;
     padding: 20px; 
-    margin: 30px 10px;
 }
 
 .div1 img {
@@ -55,7 +54,12 @@ body {
     border-style: none;
     border-radius: 10px;
     padding: 20px; 
-    margin: 30px 10px;
+}
+
+.div2 img {
+    border: 3px solid var(--LightViolet);
+    border-radius: 50%;
+    margin: 10px;
 }
 
 .div3 {
@@ -67,7 +71,12 @@ body {
     border-style: none;
     border-radius: 10px;
     padding: 20px; 
-    margin: 30px 10px;
+}
+
+.div3 img {
+    border: 3px solid var(--LightViolet);
+    border-radius: 50%;
+    margin: 10px;
 }
 
 .div4 {
@@ -78,7 +87,12 @@ body {
     border-style: none;
     border-radius: 10px;
     padding: 20px; 
-    margin: 30px 10px;
+}
+
+.div4 img {
+    border: 3px solid var(--LightViolet);
+    border-radius: 50%;
+    margin: 10px;
 }
 
 .div5 {
@@ -90,7 +104,12 @@ body {
     border-style: none;
     border-radius: 10px;
     padding: 20px; 
-    margin: 30px 10px;
+}
+
+.div5 img {
+    border: 3px solid var(--LightViolet);
+    border-radius: 50%;
+    margin: 10px;
 }
         
 .attribution { font-size: 11px; text-align: center; }
